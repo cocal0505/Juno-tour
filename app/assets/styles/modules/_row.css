@@ -20,7 +20,14 @@
 }
 
 
+&--gutter-large{
 
+    margin-right:-100px;
+}
+
+&--gutter-large>div{
+    padding-right:100px;
+}
 
 @mixin atMedium{
 
@@ -50,7 +57,12 @@
        width:63%;
    }
    
-   
+   &__medium-6{
+
+    float:left;
+    width:50%;
+
+   }
    
    }
 }
