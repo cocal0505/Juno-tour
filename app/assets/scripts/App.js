@@ -6,6 +6,17 @@ import StickyHeader from './modules/StickyHeader'
 import ClientArea from './modules/ClientArea'
 
 
+//React Related //
+import React from 'react'
+import ReactDom from 'react-dom'
+
+//import react//
+import MyAmazingComponrnt from './modules/MyAmazingComponent'
+
+ReactDom.render(<MyAmazingComponrnt/>, document.querySelector("#my-react-example"))
+
+
+
  new ClientArea()
  new StickyHeader()
  new RevealOnScroll(document.querySelectorAll(".feature-item"),75); 
