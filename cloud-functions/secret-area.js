@@ -1,7 +1,7 @@
 exports.handler = function(event, context, callback){
    const secretContent = `
-   <h3>Welcome to the secret area</h3> 
-   <p>we can tell you that this is <strong> shit </strong> </p> 
+   <h3>Welcome To The secret area</h3> 
+   <p>we can tell you that this is <strong>shit</strong> </p> 
    `
    
    
@@ -9,7 +9,7 @@ exports.handler = function(event, context, callback){
     let body 
 
    if (event.body){
-    body = JSON.parse(events.body)
+    body = JSON.parse(event.body)
    }else{
     body = {}
    }
